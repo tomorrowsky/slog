@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/gookit/goutil/fsutil"
-	"github.com/gookit/slog"
-	"github.com/gookit/slog/handler"
 	"github.com/stretchr/testify/assert"
+	"github.com/tomorrowsky/slog"
+	"github.com/tomorrowsky/slog/handler"
 )
 
 func TestNewSizeRotateFileHandler(t *testing.T) {
@@ -108,7 +108,7 @@ func TestNewTimeRotateFileHandler_EveryHour(t *testing.T) {
 	checkLogFileContents(t, fpath)
 }
 
-func checkLogFileContents(t *testing.T, logfile string)  {
+func checkLogFileContents(t *testing.T, logfile string) {
 	assert.True(t, fsutil.IsFile(logfile))
 
 	bts, err := ioutil.ReadFile(logfile)

@@ -3,7 +3,7 @@ package handler
 import (
 	"bufio"
 
-	"github.com/gookit/slog"
+	"github.com/tomorrowsky/slog"
 )
 
 // bufferWrapper struct

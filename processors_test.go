@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/gookit/slog"
 	"github.com/stretchr/testify/assert"
+	"github.com/tomorrowsky/slog"
 )
 
 func TestLogger_AddProcessor(t *testing.T) {

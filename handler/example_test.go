@@ -1,8 +1,8 @@
 package handler_test
 
 import (
-	"github.com/gookit/slog"
-	"github.com/gookit/slog/handler"
+	"github.com/tomorrowsky/slog"
+	"github.com/tomorrowsky/slog/handler"
 )
 
 func ExampleFileHandler() {

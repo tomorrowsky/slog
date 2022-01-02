@@ -8,7 +8,7 @@ import (
 	"os"
 	"sync"
 
-	"github.com/gookit/slog"
+	"github.com/tomorrowsky/slog"
 )
 
 // var (

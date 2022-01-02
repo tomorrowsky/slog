@@ -4,8 +4,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/gookit/slog"
-	"github.com/gookit/slog/handler"
+	"github.com/tomorrowsky/slog"
+	"github.com/tomorrowsky/slog/handler"
 )
 
 // go test -v -cpu=4 -run=none -bench=. -benchtime=10s -benchmem bench_test.go

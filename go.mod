@@ -1,4 +1,4 @@
-module github.com/gookit/slog
+module github.com/tomorrowsky/slog
 
 go 1.13
 

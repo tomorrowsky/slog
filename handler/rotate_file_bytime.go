@@ -4,7 +4,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/gookit/slog"
+	"github.com/tomorrowsky/slog"
 )
 
 // rotate log file by time.

@@ -3,7 +3,7 @@ package handler
 import (
 	"net/smtp"
 
-	"github.com/gookit/slog"
+	"github.com/tomorrowsky/slog"
 )
 
 // EmailOption struct

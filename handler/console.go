@@ -4,7 +4,7 @@ import (
 	"os"
 
 	"github.com/gookit/color"
-	"github.com/gookit/slog"
+	"github.com/tomorrowsky/slog"
 )
 
 /********************************************************************************

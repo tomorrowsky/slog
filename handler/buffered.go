@@ -4,7 +4,7 @@ import (
 	"bufio"
 	"io"
 
-	"github.com/gookit/slog"
+	"github.com/tomorrowsky/slog"
 )
 
 // BufferedHandler definition

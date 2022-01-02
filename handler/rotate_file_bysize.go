@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/gookit/slog"
+	"github.com/tomorrowsky/slog"
 )
 
 // default new Logfile Func

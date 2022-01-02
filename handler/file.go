@@ -6,7 +6,7 @@ import (
 	"os"
 	"path"
 
-	"github.com/gookit/slog"
+	"github.com/tomorrowsky/slog"
 )
 
 // TODO use this ... ?

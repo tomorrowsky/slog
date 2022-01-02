@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/gookit/goutil/dump"
-	"github.com/gookit/slog"
 	"github.com/stretchr/testify/assert"
+	"github.com/tomorrowsky/slog"
 )
 
 func TestM_String(t *testing.T) {
@@ -17,7 +17,7 @@ func TestM_String(t *testing.T) {
 		"k3": 23.45,
 		"k4": []int{12, 23},
 		"k5": []string{"ab", "bc"},
-		"k6": map[string]interface{} {
+		"k6": map[string]interface{}{
 			"k6-1": 23,
 			"k6-2": "def",
 		},

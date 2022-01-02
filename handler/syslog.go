@@ -1,3 +1,4 @@
+//go:build !windows && !nacl && !plan9
 // +build !windows,!nacl,!plan9
 
 package handler
@@ -5,7 +6,7 @@ package handler
 import (
 	"log/syslog"
 
-	"github.com/gookit/slog"
+	"github.com/tomorrowsky/slog"
 )
 
 // SysLogHandler struct

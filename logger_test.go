@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/gookit/slog"
-	"github.com/gookit/slog/handler"
 	"github.com/stretchr/testify/assert"
+	"github.com/tomorrowsky/slog"
+	"github.com/tomorrowsky/slog/handler"
 )
 
 func TestLoggerBasic(t *testing.T) {
